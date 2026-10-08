@@ -1,0 +1,8 @@
+# 锁定为作者实测通过的版本组合（Python 3.14 / Windows 实测），
+# 保证开源环境的可复现性；升级依赖后请重跑 selfcheck.py 和 test_app.py
+streamlit==1.64.0
+akshare==1.18.96
+pandas==3.0.5
+numpy==2.5.1
+plotly==7.1.0
+pyarrow==25.0.1

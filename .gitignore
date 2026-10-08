@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# 项目生成物（行情缓存可再生、含个人信息或体积大，均不入库）
+data/
+user_config.json
+signals_log.csv
+*.zip
+
+# 工作区/工具元数据
+.zcode/
+.video_agent/
+.streamlit/logs/
+
+# 系统
+.DS_Store
+Thumbs.db
